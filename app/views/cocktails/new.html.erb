@@ -1,0 +1,9 @@
+<h1 style="text-align: center; letter-spacing: 7px; color: white; padding-top: 15px;">Add New Cocktail</h1>
+
+
+  <div class="container">
+    <%= simple_form_for @cocktail do |f| %>
+      <%= f.input :name, class: 'new_cocktail' %>
+       <%= f.submit class: 'edit_button' %>
+    <% end %>
+  </div>

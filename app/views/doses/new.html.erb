@@ -1,0 +1,12 @@
+<h1 style="text-align: center; letter-spacing: 7px; color: white; padding-top: 15px;">Doses</h1>
+
+<div class="container">
+  <%= simple_form_for [@cocktail, @dose] do |f| %>
+      <%= f.input :description, class: 'new_dose'%>
+      <%= f.input :ingredient_id, collection: Ingredient.all %>
+      <%= f.submit class: 'edit_button' %>
+    <% end %>
+</div>
+
+
+

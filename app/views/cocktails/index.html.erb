@@ -1,0 +1,31 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+</style>
+
+<div class="container-index">
+  <div class="navbar-lewagon" >
+    <h1>Cocktails</h1>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <h2 class="h2">List of Cocktails Created</h2>
+          <% @cocktails.each do |cocktail| %>
+          <div class="list_group">
+            <div class="cocktail_list ">
+              <ul>
+                <li><%= link_to cocktail.name, cocktail_path(cocktail), class: 'listed_items' %></li>
+              </ul>
+            </div>
+          </div>
+          <% end %>
+          <p class="submit_button_index"><%=link_to "Add a new cocktail", new_cocktail_path, class: 'edit_button' %></p>
+      </div>
+      <div class="col-sm">
+        <img src="assets/cocktail2.jpg" alt="#" class="image_tag">
+      </div>
+    </div>
+  </div>
+
+

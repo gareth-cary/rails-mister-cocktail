@@ -1,0 +1,71 @@
+// Place all the styles related to the cocktails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  // background-image: url(https://images.all-free-download.com/images/graphiclarge/hand_drawn_cocktail_with_grunge_background_544698.jpg);
+  background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ), asset_url('assets/banner.jpg');
+  font-family: 'Satisfy', ;
+}
+
+.cocktail_list {
+  padding-left: 50px;
+}
+
+.listed_items {
+  color: white;
+  font-size: 20px;
+}
+
+.listed_items:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.6;
+}
+
+.h2 {
+  padding-left: 50px;
+  color: white;
+}
+
+.cocktail_list2 {
+  padding: 15px 15px;
+  border: 2px solid black;
+}
+
+.submit_button_index {
+  padding-left: 70px;
+}
+
+.edit_button {
+  border-radius: 10px;
+  padding: 7px 30px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.edit_button:hover {
+  text-decoration: none;
+  opacity: 0.3;
+  color: white;
+}
+.new_dose {
+  color: white;
+}
+
+.new_cocktail {
+  color: white;
+}
+
+.image_tag {
+  border-radius: 20px;
+  width:700px;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+
+
