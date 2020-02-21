@@ -1,5 +1,13 @@
 <h1 class="navbar-lewagon"><%= @cocktail.name %></h1>
+<%= cl_image_tag @cocktail.photo.key, height: 300, width: 400, crop: :fill %>
+<%#= cl_image_tag("v1582302318/f3rugdtuogzlkd6lxzwn.jpg
 
+
+
+
+
+",
+      width: 400, height: 300, crop: :fill) %>
 <% @doses.each do |dose| %>
 <div>
   <div class="boxed container">

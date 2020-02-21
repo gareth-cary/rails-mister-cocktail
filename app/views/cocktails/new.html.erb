@@ -4,6 +4,8 @@
   <div class="container">
     <%= simple_form_for @cocktail do |f| %>
       <%= f.input :name, class: 'new_cocktail' %>
+      <%= f.input :photo  %>
        <%= f.submit class: 'edit_button' %>
     <% end %>
   </div>
+

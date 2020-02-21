@@ -4,6 +4,8 @@
 # Examples:
 puts "deleteing all doses"
 Dose.destroy_all
+puts "deleteing all cocktails"
+Cocktail.destroy_all
 puts "deleteing all ingredients"
 Ingredient.destroy_all
 
